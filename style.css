@@ -67,3 +67,40 @@ input::placeholder,
 textarea::placeholder {
   opacity: 0.65;
 }
+
+.chat-option {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: #e5e2e1;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 12px;
+  transition: all .2s ease;
+}
+
+.chat-option:hover {
+  border-color: rgba(0,240,255,.5);
+  color: #00f0ff;
+}
+
+.chat-user {
+  align-self: flex-end;
+  background: #00f0ff;
+  color: #00363a;
+  padding: 10px 12px;
+  max-width: 85%;
+}
+
+.chat-bot {
+  align-self: flex-start;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: #e5e2e1;
+  padding: 10px 12px;
+  max-width: 85%;
+}
+
+.chat-link {
+  color: #00f0ff;
+  text-decoration: underline;
+}
