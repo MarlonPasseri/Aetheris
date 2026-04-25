@@ -1,0 +1,69 @@
+body { background-color: #050505; color: #e5e2e1; -webkit-font-smoothing: antialiased; }
+
+body,
+p,
+a,
+button,
+input,
+textarea,
+label,
+span {
+  font-family: 'Inter', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+.font-h1,
+.font-h2,
+.font-h3,
+.font-label-caps,
+.font-mono-data {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+.font-body-md,
+.font-body-lg {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.text-h2 {
+  font-size: 4rem !important;
+  line-height: 1.1 !important;
+  letter-spacing: -0.02em !important;
+  font-weight: 700 !important;
+}
+
+.text-label-caps {
+  font-size: 0.7rem !important;
+  line-height: 1 !important;
+  letter-spacing: 0.25em !important;
+  font-weight: 700 !important;
+}
+
+.text-body-lg {
+  font-size: 1.25rem !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0.01em !important;
+  font-weight: 300 !important;
+}
+
+span.text-primary-container.font-label-caps.editorial-spacing.mb-8.block {
+  color: #ff5722 !important;
+}
+         
+
+form.glass-panel {
+  border-radius: 28px;
+  box-shadow: 0 0 90px rgba(0, 240, 255, 0.06);
+}
+
+input,
+textarea {
+  caret-color: #00f0ff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.65;
+}
